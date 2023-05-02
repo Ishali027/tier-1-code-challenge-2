@@ -71,6 +71,11 @@ let myScore = sumTiles(myScrabbleTiles);
 
 // 8. Check whether or not your score is higher than the highScore.
 // 8-1 If your score is higher, change highScore to the new high score.
+if( myScore > highScore){
+  highScore = myScore;
+  console.log('Highscore is now:', highScore)
+}   // changed original value of 'highscore' from '29 to '49' (line 13) to make sure
+// my conditional would not run if myScore was not higher.
 
 
 // DONE!
